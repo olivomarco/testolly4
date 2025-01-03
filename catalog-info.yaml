@@ -10,6 +10,6 @@ metadata:
     backstage.io/techdocs-ref: dir:.
     backstage.io/github-actions-logs-url-template: 'https://github.com/olivomarco/testolly4/actions/runs/${{ runId }}'
 spec:
-  type: app
+  type: website
   owner: group:team-a
   lifecycle: experimental
