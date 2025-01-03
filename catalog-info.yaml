@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "testolly4"
+  annotations:
+    github.com/project-slug: olivomarco/testolly4
+    github.com/devcontainer-path: .devcontainer/devcontainer.json
+    backstage.io/github-actions-id: olivomarco/testolly4
+    azure.com/tag-selector: olivomarco/testolly4  # unused
+    backstage.io/techdocs-ref: dir:.
+    backstage.io/github-actions-logs-url-template: 'https://github.com/olivomarco/testolly4/actions/runs/${{ runId }}'
+spec:
+  type: app
+  owner: group:team-a
+  lifecycle: experimental
